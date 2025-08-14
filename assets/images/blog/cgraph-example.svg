@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="628pt" height="314pt" viewBox="0.00 0.00 627.65 314.40">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 310.4)">
+<title>G</title>
+<!-- Removed background polygon -->
+
+<!-- 0x104998930 -->
+<g id="node1" class="node">
+<title>0x104998930</title>
+<polygon fill="white" stroke="black" points="279.74,-180.1 279.74,-216.1 468.48,-216.1 468.48,-180.1 279.74,-180.1"/>
+<text text-anchor="middle" x="324.09" y="-193.9" font-family="Times,serif" font-size="14.00">node_0 (f32)</text>
+<polyline fill="none" stroke="black" points="368.44,-180.1 368.44,-216.1"/>
+<text text-anchor="middle" x="396.85" y="-193.9" font-family="Times,serif" font-size="14.00">0 [4, 3]</text>
+<polyline fill="none" stroke="black" points="425.26,-180.1 425.26,-216.1"/>
+<text text-anchor="middle" x="446.87" y="-193.9" font-family="Times,serif" font-size="14.00">X*Y</text>
+</g>
+
+<!-- 0x104998dd0 -->
+<g id="node4" class="node">
+<title>0x104998dd0</title>
+<polygon fill="white" stroke="black" points="234.74,-0.5 234.74,-36.5 423.48,-36.5 423.48,-0.5 234.74,-0.5"/>
+<text text-anchor="middle" x="279.09" y="-14.3" font-family="Times,serif" font-size="14.00">node_3 (f32)</text>
+<polyline fill="none" stroke="black" points="323.44,-0.5 323.44,-36.5"/>
+<text text-anchor="middle" x="351.85" y="-14.3" font-family="Times,serif" font-size="14.00">3 [2, 3]</text>
+<polyline fill="none" stroke="black" points="380.26,-0.5 380.26,-36.5"/>
+<text text-anchor="middle" x="401.87" y="-14.3" font-family="Times,serif" font-size="14.00">X*Y</text>
+</g>
+
+<!-- 0x104998930-&gt;0x104998dd0 -->
+<g id="edge6" class="edge">
+<title>0x104998930:x-&gt;0x104998dd0:x</title>
+<path fill="none" stroke="gray" d="M446.87,-179.6C446.87,-122.34 437.83,-107.12 414.11,-55 412.23,-50.87 409.42,-48.79 406.97,-46.74"/>
+<polygon fill="gray" stroke="gray" points="402.44,-38.08 411.06,-44.85 404.19,-41.43 407.08,-46.94 407.08,-46.94 407.08,-46.94 404.19,-41.43 403.09,-49.03 402.44,-38.08"/>
+<text text-anchor="middle" x="455.58" y="-104.1" font-family="Times,serif" font-size="14.00" fill="gray">src 1</text>
+</g>
+
+<!-- 0x104998ad0 -->
+<g id="node2" class="node">
+<title>0x104998ad0</title>
+<polygon fill="white" stroke="black" points="0,-180.1 0,-216.1 262.22,-216.1 262.22,-180.1 0,-180.1"/>
+<text text-anchor="middle" x="85.17" y="-193.9" font-family="Times,serif" font-size="14.00">A matrix (transposed) (f32)</text>
+<polyline fill="none" stroke="black" points="170.34,-180.1 170.34,-216.1"/>
+<text text-anchor="middle" x="198.75" y="-193.9" font-family="Times,serif" font-size="14.00">1 [4, 2]</text>
+<polyline fill="none" stroke="black" points="227.17,-180.1 227.17,-216.1"/>
+<text text-anchor="middle" x="244.69" y="-193.9" font-family="Times,serif" font-size="14.00">x.T</text>
+</g>
+
+<!-- 0x104998c40 -->
+<g id="node3" class="node">
+<title>0x104998c40</title>
+<polygon fill="white" stroke="black" points="37.85,-90.3 37.85,-126.3 358.37,-126.3 358.37,-90.3 37.85,-90.3"/>
+<text text-anchor="middle" x="141.48" y="-104.1" font-family="Times,serif" font-size="14.00">A matrix (transposed) (cont) (f32)</text>
+<polyline fill="none" stroke="black" points="245.12,-90.3 245.12,-126.3"/>
+<text text-anchor="middle" x="273.53" y="-104.1" font-family="Times,serif" font-size="14.00">2 [4, 2]</text>
+<polyline fill="none" stroke="black" points="301.94,-90.3 301.94,-126.3"/>
+<text text-anchor="middle" x="330.16" y="-104.1" font-family="Times,serif" font-size="14.00">cont(x)</text>
+</g>
+
+<!-- 0x104998ad0-&gt;0x104998c40 -->
+<g id="edge4" class="edge">
+<title>0x104998ad0:x-&gt;0x104998c40:x</title>
+<path fill="none" stroke="gray" d="M244.69,-179.6C244.69,-139.31 314.28,-165.09 327.87,-137.71"/>
+<polygon fill="gray" stroke="gray" points="329.91,-127.99 332.26,-138.7 329.13,-131.69 327.86,-137.78 327.86,-137.78 327.86,-137.78 329.13,-131.69 323.45,-136.86 329.91,-127.99"/>
+<text text-anchor="middle" x="334.68" y="-149" font-family="Times,serif" font-size="14.00" fill="gray">src 0</text>
+</g>
+
+<!-- 0x104998c40-&gt;0x104998dd0 -->
+<g id="edge5" class="edge">
+<title>0x104998c40:x-&gt;0x104998dd0:x</title>
+<path fill="none" stroke="gray" d="M359.37,-108.3C386.11,-108.3 372.59,-77.34 387.28,-55 390.11,-50.7 393.76,-48.77 396.7,-46.64"/>
+<polygon fill="gray" stroke="gray" points="401.29,-38.07 400.53,-49.01 399.51,-41.41 396.57,-46.88 396.57,-46.88 396.57,-46.88 399.51,-41.41 392.6,-44.76 401.29,-38.07"/>
+<text text-anchor="middle" x="400.7" y="-59.2" font-family="Times,serif" font-size="14.00" fill="gray">src 0</text>
+</g>
+
+<!-- 0x104984020 -->
+<g id="node5" class="node">
+<title>0x104984020</title>
+<polygon fill="pink" stroke="black" points="195.18,-269.9 195.18,-305.9 399.04,-305.9 399.04,-269.9 195.18,-269.9"/>
+<text text-anchor="middle" x="244" y="-283.7" font-family="Times,serif" font-size="14.00">A matrix (f32)</text>
+<polyline fill="none" stroke="black" points="292.82,-269.9 292.82,-305.9"/>
+<text text-anchor="middle" x="345.93" y="-283.7" font-family="Times,serif" font-size="14.00">CONST 0 [2, 4]</text>
+</g>
+
+<!-- 0x104984020-&gt;0x104998930 -->
+<g id="edge1" class="edge">
+<title>0x104984020:x-&gt;0x104998930:x</title>
+<path fill="none" stroke="gray" d="M244,-269.4C244,-248.84 402.11,-241.58 439.17,-224.14"/>
+<polygon fill="gray" stroke="gray" points="446,-217.45 442,-227.66 443.3,-220.1 438.85,-224.45 438.85,-224.45 438.85,-224.45 443.3,-220.1 435.71,-221.23 446,-217.45"/>
+<text text-anchor="middle" x="411.26" y="-238.8" font-family="Times,serif" font-size="14.00" fill="gray">src 0</text>
+</g>
+
+<!-- 0x104984020-&gt;0x104998ad0 -->
+<g id="edge3" class="edge">
+<title>0x104984020:x-&gt;0x104998ad0:x</title>
+<path fill="none" stroke="gray" d="M244,-269.4C244,-250.15 244.47,-242.74 244.63,-227.75"/>
+<polygon fill="gray" stroke="gray" points="244.69,-217.82 249.13,-227.84 244.67,-221.6 244.63,-227.82 244.63,-227.82 244.63,-227.82 244.67,-221.6 240.13,-227.79 244.69,-217.82"/>
+<text text-anchor="middle" x="257.94" y="-238.8" font-family="Times,serif" font-size="14.00" fill="gray">src 0</text>
+</g>
+
+<!-- 0x1049841b0 -->
+<g id="node6" class="node">
+<title>0x1049841b0</title>
+<polygon fill="pink" stroke="black" points="416.56,-269.9 416.56,-305.9 619.65,-305.9 619.65,-269.9 416.56,-269.9"/>
+<text text-anchor="middle" x="465" y="-283.7" font-family="Times,serif" font-size="14.00">B matrix (f32)</text>
+<polyline fill="none" stroke="black" points="513.43,-269.9 513.43,-305.9"/>
+<text text-anchor="middle" x="566.54" y="-283.7" font-family="Times,serif" font-size="14.00">CONST 1 [2, 3]</text>
+</g>
+
+<!-- 0x1049841b0-&gt;0x104998930 -->
+<g id="edge2" class="edge">
+<title>0x1049841b0:x-&gt;0x104998930:x</title>
+<path fill="none" stroke="gray" d="M465,-269.4C465,-248.85 452.57,-243.14 448.29,-227.7"/>
+<polygon fill="gray" stroke="gray" points="447.03,-217.81 452.76,-227.16 447.51,-221.56 448.3,-227.73 448.3,-227.73 448.3,-227.73 447.51,-221.56 443.83,-228.3 447.03,-217.81"/>
+<text text-anchor="middle" x="474.03" y="-238.8" font-family="Times,serif" font-size="14.00" fill="gray">src 1</text>
+</g>
+</g>
+</svg>
